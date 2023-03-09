@@ -2,4 +2,4 @@ function deepEquals(a, b) {
  
 }
 
-modules.export=deepEquals;
+module.exports=deepEquals;
