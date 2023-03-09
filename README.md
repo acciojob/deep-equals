@@ -6,7 +6,7 @@
 - NaN is only equal to NaN
 - [null] is only equal to [null], and undefined is only equal to undefined. These values are not equal to each other.
 - Arrays are only equal if their entries are deeply equal to each other.
-- • Objects are equal only if their keys and values are deeply equal to each other (note that the order of the keys doesn't matter).
+- Objects are equal only if their keys and values are deeply equal to each other (note that the order of the keys doesn't matter).
 
 
 You can make the following assumptions:
