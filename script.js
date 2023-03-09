@@ -1,1 +1,5 @@
-//your JS code here. If required.
+function deepEquals(a, b) {
+ 
+}
+
+modules.export=deepEquals;
