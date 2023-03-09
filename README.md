@@ -1,10 +1,16 @@
-# Favorite Holiday 
+# Deep Equals
 
-### Create a webpage that describes your favorite holiday destination. The webpage should include the following elements:
+### Write a deepEquals function that takes in two required values and returns if those two values are deeply equal to each other.For the purpose of this problem, deep equality is defined as follows:
 
-- A heading (h1) with the name of the holiday destination
-- A paragraph that provides a brief overview of the destination
-- A line break between the heading and the paragraph
-- An ordered list that lists the top 5 attractions in the destination
-- An unordered list that lists the must-try foods in the destination
-- Text within the ordered and unordered lists should be bold (strong or b) and/or italicized (em or i) to emphasize important information.
+- Values with different types are not equal.
+- NaN is only equal to NaN
+- [null] is only equal to [null], and undefined is only equal to undefined. These values are not equal to each other.
+- Arrays are only equal if their entries are deeply equal to each other.
+- • Objects are equal only if their keys and values are deeply equal to each other (note that the order of the keys doesn't matter).
+
+
+You can make the following assumptions:
+
+- Functions will never be passed to deepEquals and will never be contained in objects or arrays passed to deepEquals
+- Objects will only have string keys, and their values won't be recursive references to themselves.
+- The prototype chain doesn't need to be considered when determining if two objects are deeply equal.
